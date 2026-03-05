@@ -1,0 +1,8 @@
+services:
+  db:
+    image: postgres:18.3
+    environment:
+      POSTGRES_PASSWORD: "kzbiceksRirj2KTqVY4B"
+      POSTGRES_USER: "ayane"
+    ports:
+      - "127.0.0.1:5432:5432"
